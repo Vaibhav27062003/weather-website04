@@ -1,0 +1,156 @@
+/* Custom styles for the weather cards */
+/* Custom styles for the body */
+/**{
+  background-color:rgb(6,51,66);
+};*/
+
+body {
+  background: linear-gradient(90deg, rgb(6,51,66), #090909); /* Use a gradient for the background */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  perspective: 1000px; /* Add perspective for 3D effect */
+}
+/* Custom styles for the body */
+/* Custom styles for the body */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color:rgb(6,51,66); /* Dark background color */
+  color: #fff; /* White text color */
+ 
+}
+
+/* Glowing animation */
+
+
+.temperature-box {
+  font-size: 36px;
+  font-weight: bold;
+  color: white;
+}
+
+/* Custom styles for the humidity info box */
+.humidity-box {
+  font-size: 24px;
+  
+}
+
+/* Custom styles for the wind info box */
+.wind-box {
+  font-size: 24px;
+}  
+/* Custom styles for a container */
+.container {
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 20px;
+  
+}
+
+h1 i{
+  color:orange;
+}
+h4 i.fa-droplet{
+  color: #53a0f9;
+}h4 i.fa-wind{
+  color: #aacef7;
+}h4 i.fa-temperature-low{
+  color: #f70909;
+}
+
+.card-body{
+  color: white;
+}
+.boxdata {
+  color: rgb(93, 149, 169);
+}
+
+/* Custom styles for the main content */
+.main-content {
+  background-color: rgba(250, 248, 248, 0.9); /* Semi-transparent white background for content */
+  padding: 20px;
+  border-radius: 10px;
+  transform: rotateY(10deg); /* Rotate content slightly for 3D effect */
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.5); /* Add shadow for depth */
+}
+
+/* Custom styles for the header */
+header {
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background for header */
+  padding: 10px 0;
+  text-align: center;
+  border-radius: 10px 10px 0 0;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3); /* Add shadow for depth */
+}
+
+/* Custom styles for the footer */
+footer {
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background for footer */
+  color: #333;
+  text-align: center;
+  padding: 20px 0;
+  border-radius: 0 0 10px 10px;
+  box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.3); /* Add shadow for depth */
+}
+
+.card {
+  background-color:rgb(2,3,28);
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-5px) scale(1.05);
+  color: yellowgreen;
+}
+
+/* Custom styles for the search input and button */
+.form-control {
+  border-radius: 20px;
+  border-width:2px ;
+  transition: all 0.5s ease;
+  border-color:rgb(16, 71, 90);
+}
+
+
+
+
+.form-control:hover {
+  border-color:rgb(16, 71, 90);
+  box-shadow: 0 0 0 0.2rem rgb(16,71,90);
+}
+
+.btn-outline-success {
+  border-radius: 20px;
+  border-width: 2px;
+  color:rgb(16,71,90);
+  border-color:rgb(16,71,90);
+  transition: all 0.3s ease;
+}
+
+.btn-outline-success:hover {
+  background-color:#09c0f7;
+  background-color:rgb(6,51,66); ;
+  color: #fff;
+  transform: translateY(-1px);
+}
+
+/* Custom styles for the footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+/* 3D text effect for the main heading */
+
+
+
